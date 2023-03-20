@@ -17,14 +17,14 @@ body {
 }
 
 #navigacija ul {
-list-style-type:none;
+list-style-type:none; /*sa ovim smo sklonili bullet points */
 display: flex;
 gap:58px;
 margin-left:auto;
 align-items:center;
 }
 
-#navigacija a {
+#navigacija a { /*stilizujem link iz html-a */
     text-decoration: none;
     color: black;
 }
