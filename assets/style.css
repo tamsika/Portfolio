@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Inter', sans-serif;
+}
+#navigacija {
+    display: flex;
+    padding: 16px 32px;
+}
+
+#navigacija ul {
+list-style-type:none;
+display: flex;
+gap:58px;
+margin-left:auto;
+align-items:center;
+}
+
+#navigacija a {
+    text-decoration: none;
+    color: black;
+}
+
+#navigacija a:hover, #navigacija a:focus {
+color: #D1552B;
+}
+
+
