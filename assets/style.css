@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #d1552b;
+}
+
 body {
     font-family:'Inter', sans-serif;
 }
@@ -26,7 +30,11 @@ align-items:center;
 }
 
 #navigacija a:hover, #navigacija a:focus {
-color: #D1552B;
+color: var(--primary-color);
+}   
+
+.active {
+    color: var(--primary-color) !important;
 }
 
 
